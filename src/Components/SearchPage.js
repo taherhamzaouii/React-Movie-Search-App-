@@ -27,7 +27,7 @@ function SearchPage() {
         <div className='searchPage'>
             {
                 shows.map(el =>
-              <Link style={{textDecoration:'none'}} to={`/show/${el.show.id}`}>
+              <Link style={{textDecoration:'none', color:'black'}} to={`/show/${el.show.id}`}>
                   <ShowCard title={el.show.name} src={el.show.image && el.show.image.medium}
                  /></Link> 
                 )

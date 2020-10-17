@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <Link style={{textDecoration:'none'}} to='/'>
+        <Link style={{textDecoration:'none', color:'black'}} to='/'>
 
         <div className='header'>
             <h1><MovieFilterIcon className='movie_icon'/> Shows App</h1>
