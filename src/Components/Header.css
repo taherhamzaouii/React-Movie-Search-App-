@@ -1,0 +1,21 @@
+.movie_icon{
+    color: #FF385C;
+    font-size: 113px !important;
+    display:flex
+}
+
+.header > h1{
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    /* margin-top: 10px; */
+  }
+  

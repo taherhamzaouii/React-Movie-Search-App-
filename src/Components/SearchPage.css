@@ -1,0 +1,6 @@
+.searchPage{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}

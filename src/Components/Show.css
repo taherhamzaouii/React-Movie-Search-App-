@@ -1,0 +1,25 @@
+.show{
+    display: flex;
+}
+
+.show_img{
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border: 2px solid lightgray;
+    border-radius: 4%;
+}
+
+.show_info{
+    margin-top: 30px;
+}
+
+.show_info > h1{
+    margin-bottom: 24px;
+}
+
+.title{
+   color: #FF385C !important;
+}
